@@ -1,7 +1,27 @@
 aid: district-cover
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/district-cover.png
 name: District Cover
-description: District Cover is a company surfaced as a portfolio company of anthemis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  District Cover is a commercial insurance managing general agent and surplus-lines
+  broker focused on urban businesses. It underwrites flexible commercial coverage for
+  city-based retailers, restaurants, bakeries, laundromats, dry cleaners, salons, law
+  and medical offices, and multi-location mid-market operators, using block-level risk
+  scoring drawn from crime and fire analytics rather than broad ZIP-code assessments.
+  The platform supports real-time submissions, multi-location quoting, and property-only
+  endorsements, and is distributed to brokers through a licensed producer network
+  operating across multiple U.S. states. District Cover publishes no public API or
+  developer program; broker access is delivered through a hosted Insly portal.
 url: https://raw.githubusercontent.com/api-evangelist/district-cover/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Underwriting
+- Risk Management
+- Surplus Lines
+- Brokerage
 apis: []
+common:
+- type: DomainSecurity
+  url: security/district-cover-domain-security.yml
+- type: Website
+  url: https://districtcover.com
+- type: About
+  url: https://districtcover.com/about
+- type: Login
+  url: https://districtcover.app.us.insly.com/login
+- type: Support
+  url: mailto:Help@districtcover.com
+- type: PrivacyPolicy
+  url: https://districtcover.com/our-privacy-policy
+- type: TermsOfService
+  url: https://districtcover.com/our-terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/district-cover
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
