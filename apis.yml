@@ -34,6 +34,9 @@ description: >-
   operating across multiple U.S. states. District Cover publishes no public API or
   developer program; broker access is delivered through a hosted Insly portal.
 url: https://raw.githubusercontent.com/api-evangelist/district-cover/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "District Cover publishes no public API or developer program; broker access is delivered through a hosted Insly portal."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
